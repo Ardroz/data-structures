@@ -1,7 +1,7 @@
 /*!
  *  @file 1-1.c
- *  @brief This program swap all the occurrences in an integer array that is
-      defined by the user (The array and the values).
+ *  @brief This program swap all the occurrences of a value in an integer array 
+    that is defined by the user (The array and the values).
  *  @author 
       Name:     Rodriguez Rosas Daniel Arturo
       Twitter:  @ardroz
