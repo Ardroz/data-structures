@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-int cambiarOcurrencias ( int *array, int toChange );
+int swapOccurences ( int *array, int toChange );
 
 int main() {
-
   int arrayLength = 0,
       i = 0,
       toChange = 0,
@@ -24,7 +23,7 @@ int main() {
   printf("Ingresa el número a cambiar: ");
   scanf( "%d", &toChange );
 
-  changed = cambiarOcurrencias( array, toChange );
+  changed = swapOccurences( array, toChange );
 
   printf("Se modificaron %d ocurrencias.\n", changed);
 
@@ -34,7 +33,7 @@ int main() {
   return 0;
 }
 
-int cambiarOcurrencias ( int *array, int toChange ) {
+int swapOccurences ( int *array, int toChange ) {
   int i = 0,
       changeTo = 0,
       counter = 0;
